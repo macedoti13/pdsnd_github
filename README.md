@@ -4,10 +4,10 @@
 04/10/2021
 
 ### Project Title
-Bikshare data exploration 
+Bikshare data exploration
 
 ### Description
-Describe what your project is about and what it does
+It asks the user´s input of city, month and day of week. Then it takes that input shows the data from a bikeshare company from that specific city, month and day.
 
 ### Files used
 Include the files used
