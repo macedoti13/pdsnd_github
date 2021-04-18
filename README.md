@@ -10,7 +10,10 @@ Bikshare data exploration
 It asks the user´s input of city, month and day of week. Then it takes that input shows the data from a bikeshare company from that specific city, month and day.
 
 ### Files used
-Include the files used
+new_york_city.csv
+chicago.csv
+washington.csv
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
