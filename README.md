@@ -16,4 +16,5 @@ washington.csv
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/Aritra96/bikeshare-project/blob/master/bikeshare.py
+https://github.com/sumankumarsubudhi/Udacity-Bikeshare-Project
