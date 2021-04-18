@@ -165,14 +165,13 @@ def user_stats(df, city):
     print('-'*40)
 
     # Asks the user if the user wants to see 5 lines of raw data
-    x = 1
-    while True:
-        data = input('\nWould you like to see 5 lines of raw data? type yes or no.\n')
-        if data.lower() == 'yes':
-            print(df[x:x+5]) # in this line Searched for help on GitHub
-            x = x+5
-        else:
-            break
+def display_raw_data(df):
+    print("Would tou like to see some raw data? Type 'no' if you don't")
+    x = 0
+    while (input()!= 'no'):
+        x += 5
+        print(df.head(x))
+
 
 def main():
     while True:
@@ -183,6 +182,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
+        raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
